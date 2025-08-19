@@ -49,8 +49,110 @@
                     <img src="/assets/images/cart.svg" alt="Корзина" class="header__action-icon">
                 </button>
             </div>
+            
+            <button class="header__burger">
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+            </button>
         </div>
     </header>
+    
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item">
+                <a href="#" class="mobile-nav__link mobile-nav__link--catalog">Каталог</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#" class="mobile-nav__link">Новинки</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#" class="mobile-nav__link">Доставка</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#" class="mobile-nav__link">О нас</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="catalog-menu">
+        <div class="catalog-menu__header">
+            <button class="catalog-menu__close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <h2 class="catalog-menu__title">QAYNA</h2>
+            <div class="catalog-menu__search">
+                <input type="text" placeholder="Поиск" class="catalog-menu__search-input">
+                <button class="catalog-menu__search-btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 19L13 13M15 8A7 7 0 1 1 1 8A7 7 0 0 1 15 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <div class="catalog-menu__content">
+            <div class="catalog-menu__column">
+                <a href="#" class="catalog-menu__link">Смотреть все</a>
+                <a href="#" class="catalog-menu__link catalog-menu__link--new">NEW COLLECTION</a>
+                <a href="#" class="catalog-menu__link">Коллекция Весна Milky Way</a>
+                <a href="#" class="catalog-menu__link">Верхняя одежда</a>
+                <a href="#" class="catalog-menu__link">Костюмы</a>
+                <a href="#" class="catalog-menu__link">Пиджаки</a>
+            </div>
+            
+            <div class="catalog-menu__column">
+                <a href="#" class="catalog-menu__link">Брюки</a>
+                <a href="#" class="catalog-menu__link">Джинсы</a>
+                <a href="#" class="catalog-menu__link">Комплекты</a>
+                <a href="#" class="catalog-menu__link">Комбинезоны</a>
+                <a href="#" class="catalog-menu__link">Худи / Свитеры</a>
+                <a href="#" class="catalog-menu__link">Блузы / Рубашки</a>
+            </div>
+            
+            <div class="catalog-menu__column">
+                <a href="#" class="catalog-menu__link">Юбки / Шорты</a>
+                <a href="#" class="catalog-menu__link">Платья / Сарафаны</a>
+                <a href="#" class="catalog-menu__link">Топы</a>
+                <a href="#" class="catalog-menu__link">Домашняя коллекция</a>
+                <a href="#" class="catalog-menu__link">Аксессуары</a>
+                <a href="#" class="catalog-menu__link">Обувь</a>
+            </div>
+        </div>
+        
+        <div class="catalog-menu__footer"></div>
+    </div>
+    
+    <nav class="bottom-nav">
+        <ul class="bottom-nav__list">
+            <li class="bottom-nav__item">
+                <a href="#" class="bottom-nav__link">
+                    <img src="/assets/images/search.svg" alt="Поиск" class="bottom-nav__icon">
+                    <span>Поиск</span>
+                </a>
+            </li>
+            <li class="bottom-nav__item">
+                <a href="#" class="bottom-nav__link">
+                    <img src="/assets/images/profile.svg" alt="Профиль" class="bottom-nav__icon">
+                    <span>Профиль</span>
+                </a>
+            </li>
+            <li class="bottom-nav__item">
+                <a href="#" class="bottom-nav__link">
+                    <img src="/assets/images/favorite.svg" alt="Избранное" class="bottom-nav__icon">
+                    <span>Избранное</span>
+                </a>
+            </li>
+            <li class="bottom-nav__item">
+                <a href="#" class="bottom-nav__link">
+                    <img src="/assets/images/cart.svg" alt="Корзина" class="bottom-nav__icon">
+                    <span>Корзина</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
     
     <section class="hero">
         <video class="hero__video" autoplay muted loop playsinline>
